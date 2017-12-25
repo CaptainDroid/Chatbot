@@ -1,0 +1,21 @@
+{
+  "name": "watson_chatbot",
+  "version": "1.0.0",
+  "description": "A good old assistant that talks to you",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "keywords": [
+    "chatbot",
+    "assistant",
+    "machine_learning"
+  ],
+  "author": "Akash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "twilio": "^3.11.0",
+    "watson-developer-cloud": "^3.0.3"
+  }
+}
